@@ -377,6 +377,7 @@
           <pushChanges>false</pushChanges>
           <releaseProfiles></releaseProfiles>
           <autoVersionSubmodules>true</autoVersionSubmodules>
+          <allowTimestampedSnapshots>true</allowTimestampedSnapshots>
         </configuration>
       </plugin>
 
