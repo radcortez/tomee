@@ -59,7 +59,7 @@ class SetupCommand {
         String tomcatVersion = require('tomcat.version')
         System.setProperty('tomcat.version', tomcatVersion)
 
-        String tomeeVersion = require('tomee.version')
+        String tomeeVersion = project.model.version
         System.setProperty('tomee.version', tomeeVersion)
 
         String proxyHost = pom.settings.activeProxy?.host ?: ''
